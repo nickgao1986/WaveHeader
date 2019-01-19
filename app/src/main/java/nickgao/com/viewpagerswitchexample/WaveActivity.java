@@ -31,7 +31,6 @@ public class WaveActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mViewPager = (ViewPager) findViewById(R.id.viewpager);
         WaveView mRateWave = (WaveView)findViewById(R.id.wave_view);
 
         mRateWave.setWaveColor(getResources().getColor(R.color.color_9ff0f0), getResources().getColor(R.color.color_5ad3d3));

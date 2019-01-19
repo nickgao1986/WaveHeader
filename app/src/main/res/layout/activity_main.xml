@@ -10,7 +10,7 @@
         android:layout_height="284dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="45dp"
-        android:background="@drawable/temperature_data_bg">
+        android:background="@drawable/background">
 
         <nickgao.com.viewpagerswitchexample.view.WaveView
             android:id="@+id/wave_view"
