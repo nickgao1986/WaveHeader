@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FDE7F1">
+
+    <RelativeLayout
+        android:layout_width="284dp"
+        android:layout_height="284dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/temperature_data_bg">
+
+        <nickgao.com.viewpagerswitchexample.view.WaveView
+            android:id="@+id/wave_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="36dp" />
+
+        <ProgressBar
+            android:id="@+id/temperature_device_loading_progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="36dp"
+            android:indeterminateDrawable="@drawable/device_loading_bg" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+
